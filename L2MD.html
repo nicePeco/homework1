@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Raksti</title>
+    <style>
+      body {
+        background-color: rgb(202, 203, 204);
+        text-align: center;
+      }
+      article p {
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        color: rgb(2, 2, 83);
+      }
+      h2 {
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        font-size: 35px;
+        color: rgb(0, 36, 80);
+      }
+      .firstSection {
+        display: inline-block;
+        width: 33%;
+      }
+      .secondSection {
+        display: inline-block;
+        width: 33%;
+      }
+      img {
+        width: 60%;
+        border-radius: 5px;
+        border: solid;
+        border-color: rgb(0, 36, 80);
+      }
+      h1 {
+        font-size: 70px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        color: rgb(0, 36, 80);
+      }
+      .raksti p {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        font-size: 30px;
+        color: rgb(2, 2, 83);
+      }
+      .elem {
+        font-size: 40px;
+        margin-bottom: 20px;
+      }
+      .elem span {
+        border: solid;
+        border-color: rgb(0, 138, 145);
+        border-radius: 55px;
+        background-color: white;
+        color: rgb(0, 138, 145);
+        padding: 20px 50px 20px 50px;
+      }
+      a:link,
+      a:visited {
+        background-color: rgb(2, 2, 83);
+        color: rgb(202, 203, 204);
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+      }
+      a:hover,
+      a:active {
+        background-color: rgb(0, 138, 145);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <!-- Šeit ievieto navigāciju uz pārējām iepriekšējā mājasdarba lapām -->
+      <nav>
+        <a href="./index.html">Main page</a>
+        <a href="./contact.html">What I have learned</a>
+        <a href="./about.html">More about me</a>
+      </nav>
+    </header>
+    <section class="raksti">
+      <h1>Raksti</h1>
+      <p>Kas zemāk esošajiem rakstiem ir kopīgs?</p>
+      <div>
+        <h6 style="font-size: 18px; color: rgb(0, 138, 145)">Kategorijas</h6>
+        <div class="elem">
+          <span style="margin-right: 10%">Kategorija 1</span>
+          <span>Kategorija 2</span>
+          <span style="margin-left: 10%">Kategorija 3</span>
+        </div>
+      </div>
+    </section>
+    <section class="main">
+      <!-- Pavairo un aizpildi <article>, lai būtu vismaz seši -->
+      <article class="firstSection" id="one">
+        <h2>University</h2>
+
+        <img
+          src="https://cdn.cnn.com/cnnnext/dam/assets/240504053117-univ-of-utah-thursday-salt-lake-city-medium-plus-169.jpg"
+          alt=""
+        /><!-- Ievieto attēlu -->
+        <p>
+          <!-- Raksta pirmais teikums -->
+          Universities across the US will be holding graduation ceremonies after
+          weeks of protest.
+        </p>
+        <a
+          target="_blank"
+          href="https://edition.cnn.com/business/live-news/university-protests-pro-palestinian-israel-05-04-24/index.html"
+          >Read more.</a
+        ><!-- Ievieto saiti uz pilnu rakstu tā, lai tā atveras jaunā cilnē -->
+      </article>
+      <article class="firstSection" id="two">
+        <h2>Trump</h2>
+        <img
+          src="https://cdn.cnn.com/cnnnext/dam/assets/200213100401-02-hope-hicks-file-medium-plus-169.jpg"
+          alt=""
+        />
+        <p>
+          Here are the key takeaways from Day 11 of Donald Trump's hush money
+          trial.
+        </p>
+        <a
+          target="_blank"
+          href="https://edition.cnn.com/politics/live-news/trump-hush-money-trial-05-03-24/index.html"
+          >Read more</a
+        >
+      </article>
+      <article class="firstSection" id="three">
+        <h2>US college</h2>
+        <img
+          src="https://cdn.cnn.com/cnnnext/dam/assets/240503114804-portland-state-university-protesters-car-ldn-digvid-00000622-medium-plus-169.png"
+          alt=""
+        />
+        <p>May 3, 2024 - US college protests</p>
+        <a
+          target="_blank"
+          href="https://edition.cnn.com/business/live-news/university-protests-pro-palestinian-israel-05-03-24/index.html"
+          >Read more</a
+        >
+      </article>
+      <article class="secondSection" id="four">
+        <h2>US jobs</h2>
+        <img
+          src="https://cdn.cnn.com/cnnnext/dam/assets/240503092514-rahel-solomon-april-job-reports-medium-plus-169.jpg"
+          alt=""
+        />
+        <p>
+          US job market shows signs of cooling, with just 175,000 jobs added in
+          April
+        </p>
+        <a
+          target="_blank"
+          href="https://edition.cnn.com/business/live-news/april-jobs-report-markets-05-03-24/index.html"
+          >Read more</a
+        >
+      </article>
+      <article class="secondSection" id="five">
+        <h2>US College</h2>
+        <img
+          src="https://cdn.cnn.com/cnnnext/dam/assets/240502114431-biden-remarks-medium-plus-169.jpg"
+          alt=""
+        />
+        <p>May 2, 2024 - US college protests</p>
+        <a
+          target="_blank"
+          href="https://edition.cnn.com/business/live-news/university-protests-pro-palestinian-israel-05-02-24/index.html"
+          >Read more</a
+        >
+      </article>
+      <article class="secondSection" id="six">
+        <h2>FBI</h2>
+        <img
+          src="https://cdn.cnn.com/cnnnext/dam/assets/240414104146-fareed-zakaria-gps-4-14-medium-plus-169.jpg"
+          alt=""
+        />
+        <p>
+          Fed holds interest rates at 23-year high as inflation continues to
+          push back timing of a rate cut
+        </p>
+        <a
+          target="_blank"
+          href="https://edition.cnn.com/business/live-news/markets-federal-reserve-meeting-05-01-24/index.html"
+          >Read more</a
+        >
+      </article>
+    </section>
+    <footer>
+      <blockquote
+        style="
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+            sans-serif;
+        "
+      >
+        “Success usually comes to those who are too busy to be looking for it.”
+        —Henry David Thoreau
+      </blockquote>
+      <div style="color: rgb(2, 2, 83)">&copy; 2024</div>
+    </footer>
+  </body>
+</html>
